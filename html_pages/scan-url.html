@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scan URL | AI SafeNet</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+      <a href="index.html"><img src="assets/images/logo.png"></a>
+      <ul class="menu">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./analyze.html">Analyze</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact Us</a></li>
+      </ul>
+      <div>
+        <a href="login.html"><button class="header-btn">Login</button></a>
+        <a href="register.html"><button class="header-btn">Register</button></a>
+      </div>
+  
+</header>
+
+<section class="container features">
+    <div class="scan-card">
+      <h1>URL Scanning</h1>
+      <p class="subtitle">Enter a website URL below to detect phishing, malware, or suspicious activity.</p>
+
+      <form onsubmit="scanURL(event)">
+        <label for="url-input">Website URL</label>
+        <input type="url" id="url-input" placeholder="https://example.com" required>
+
+        <button type="submit">Scan URL</button>
+      </form>
+
+      <div id="result-box" class="result-box"></div>
+      </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+
+    <div class="footer-grid">
+
+      <!-- Brand -->
+      <div class="footer-brand">
+        <img src="assets/images/logo.png">
+        <p>
+          A security platform for detecting phishing, malicious URLs,
+          and malware-infected files.
+        </p>
+      </div>
+
+      <!-- Features -->
+      <div>
+        <h4>Features</h4>
+        <a href="./scan-email.html">Email Scanning</a>
+        <a href="./scan-url.html">URL Scanning</a>
+        <a href="./scan-file.html">File Scanning</a>
+      </div>
+
+      <!-- Company -->
+      <div>
+        <h4>More</h4>
+        <a href="./about.html">About Us</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+
+      <!-- Support -->
+      <div>
+        <h4>Support</h4>
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./terms.html">Terms of Service</a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      © 2026 AI SafeNet. All rights reserved.
+    </div>
+
+  </div>
+</footer>
+
+<script>
+    function scanURL(event) {
+      event.preventDefault();
+      const url = document.getElementById('url-input').value.trim();
+      const resultBox = document.getElementById('result-box');
+
+      if(url === "") {
+        resultBox.style.display = 'block';
+        resultBox.style.background = "#fee2e2"; // red for error
+        resultBox.innerHTML = "<strong>Error:</strong> Please enter a URL to scan.";
+      } else {
+        // Simulated scan result (replace with backend API)
+        resultBox.style.display = 'block';
+        resultBox.style.background = "#d1fae5"; // green for safe
+        resultBox.innerHTML = `<strong>Scan Result:</strong> The URL <code>${url}</code> appears safe.`;
+      }
+    }
+  </script>
+</body>
+</html>
