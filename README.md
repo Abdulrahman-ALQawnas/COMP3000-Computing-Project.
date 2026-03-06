@@ -175,12 +175,12 @@ URGENT: Your bank account has been suspended. Click here immediately to verify y
  ```
  update_security.exe
 ```
- ...
+ ---
  
  ## 🔒 Security Considerations 
  AiSafeNet was designed with several security practices: - No use of `eval()` or unsafe JavaScript execution - Event-driven JavaScript using `addEventListener` - DOM updates using `textContent` instead of `innerHTML` - Password hashing using bcrypt - Compatible with strict Content Security Policy (CSP) 
  
- ...
+ ---
  
  ## 🚀 Future Improvements 
  1.  Machine learning phishing detection
