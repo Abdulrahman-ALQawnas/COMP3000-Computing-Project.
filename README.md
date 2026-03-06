@@ -200,11 +200,11 @@ URGENT: Your bank account has been suspended. Click here immediately to verify y
  ---
     📄 License This project is for educational and research purposes.
     
-    --- 
+ --- 
     If you want, I can also help you create:
-    - ⭐ a better GitHub repo structure
-    - ⭐ a professional project description for GitHub
-    - ⭐ screenshots section for README
-    - ⭐ badges (Python, Flask, Security, License)
-    - ⭐ a GitHub portfolio-level README that looks very professional.
+      ⭐ a better GitHub repo structure
+      ⭐ a professional project description for GitHub
+      ⭐ screenshots section for README
+      ⭐ badges (Python, Flask, Security, License)
+      ⭐ a GitHub portfolio-level README that looks very professional.
   
