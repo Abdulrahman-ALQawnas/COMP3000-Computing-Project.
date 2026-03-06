@@ -27,11 +27,11 @@
       <h1>URL Scanning</h1>
       <p class="subtitle">Enter a website URL below to detect phishing, malware, or suspicious activity.</p>
 
-      <form onsubmit="scanURL(event)">
+      <form method="post">
         <label for="url-input">Website URL</label>
         <input type="url" id="url-input" placeholder="https://example.com" required>
 
-        <button type="submit">Scan URL</button>
+        <button type="button" id="scanUrlBtn">Scan URL</button>
       </form>
 
       <div id="result-box" class="result-box"></div>
@@ -83,7 +83,7 @@
   </div>
 </footer>
 
-<script>
+<!-- <script>
     function scanURL(event) {
       event.preventDefault();
       const url = document.getElementById('url-input').value.trim();
@@ -92,14 +92,15 @@
       if(url === "") {
         resultBox.style.display = 'block';
         resultBox.style.background = "#fee2e2"; // red for error
-        resultBox.innerHTML = "<strong>Error:</strong> Please enter a URL to scan.";
+        // resultBox.innerHTML = "<strong>Error:</strong> Please enter a URL to scan.";
       } else {
         // Simulated scan result (replace with backend API)
         resultBox.style.display = 'block';
         resultBox.style.background = "#d1fae5"; // green for safe
-        resultBox.innerHTML = `<strong>Scan Result:</strong> The URL <code>${url}</code> appears safe.`;
+        // resultBox.innerHTML = `<strong>Scan Result:</strong> The URL <code>${url}</code> appears safe.`;
       }
     }
-  </script>
+  </script> -->
+<script src="assets/main.js"></script>
 </body>
 </html>

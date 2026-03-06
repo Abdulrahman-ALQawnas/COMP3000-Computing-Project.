@@ -27,14 +27,14 @@
       <h1>Email Scanning</h1>
       <p class="subtitle">Paste the email content below to detect phishing, spoofing, or malicious content.</p>
 
-      <form onsubmit="scanEmail(event)">
+      <form method="post">
         <label for="email-content">Email Content</label>
         <textarea id="email-content" placeholder="Paste email here..." required></textarea>
 
-        <button type="submit">Scan Email</button>
+        <button type="button" id="scanEmailBtn">Scan Email</button>
       </form>
 
-      <div id="result-box" class="result-box"></div>
+      <div id="emailResult" class="result-box"></div>
       </div>
 </section>
 
@@ -83,7 +83,7 @@
   </div>
 </footer>
 
-<script>
+<!-- <script>
     function scanEmail(event) {
       event.preventDefault();
       const emailContent = document.getElementById('email-content').value.trim();
@@ -100,6 +100,7 @@
         resultBox.innerHTML = "<strong>Scan Result:</strong> No phishing or malware detected.";
       }
     }
-  </script>
+  </script> -->
+<script src="assets/main.js"></script>
 </body>
 </html>

@@ -28,19 +28,20 @@
     <p class="subtitle">Create your AI SafeNet account to get started.</p>
 
     <form action="#" method="post">
+      <p id="regResult"></p>
       <div>
-        <label for="fullname">Full Name</label>
-        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+        <label for="regUsername">Full Name</label>
+        <input type="text" id="regUsername" name="fullname" placeholder="Enter your full name" required>
       </div>
 
       <div>
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <label for="regEmail">Email Address</label>
+        <input type="email" id="regEmail" name="email" placeholder="Enter your email" required>
       </div>
 
       <div>
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" placeholder="Enter a password" required>
+        <label for="regPassword">Password</label>
+        <input type="password" id="regPassword" name="password" placeholder="Enter a password" required>
       </div>
 
       <div>
@@ -48,7 +49,7 @@
         <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
       </div>
 
-      <button type="submit">Register</button>
+      <button type="button" id="registerBtn">Register</button>
     </form>
 
     <div class="extra-links">
@@ -101,6 +102,6 @@
 
   </div>
 </footer>
-
+<script src="assets/main.js"></script>
 </body>
 </html>

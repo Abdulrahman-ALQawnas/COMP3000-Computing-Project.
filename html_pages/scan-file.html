@@ -27,12 +27,12 @@
       <h1>File Scanning</h1>
       <p class="subtitle">Upload a file to detect malware, viruses, or suspicious content.</p>
 
-      <form onsubmit="scanFile(event)">
-        <input type="file" id="file-input" required>
-        <button type="submit">Scan File</button>
+      <form method="post">
+        <input type="file" id="fileInput" required>
+        <button type="button" id="scanFileBtn">Scan File</button>
       </form>
 
-      <div id="result-box" class="result-box"></div>
+      <div id="fileResult" class="result-box"></div>
       </div>
 </section>
 
@@ -81,7 +81,7 @@
   </div>
 </footer>
 
-<script>
+<!-- <script>
     function scanFile(event) {
       event.preventDefault();
       const fileInput = document.getElementById('file-input');
@@ -98,6 +98,7 @@
         resultBox.innerHTML = `<strong>Scan Result:</strong> The file <code>${fileName}</code> appears safe.`;
       }
     }
-  </script>
+  </script> -->
+<script src="assets/main.js"></script>
 </body>
 </html>

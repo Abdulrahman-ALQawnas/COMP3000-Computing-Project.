@@ -28,17 +28,18 @@
     <p class="subtitle">Welcome back! Please login to your account.</p>
 
     <form action="#" method="post">
+      <p id="loginResult"></p>
       <div>
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <label for="loginEmail">Email Address</label>
+        <input type="email" id="loginEmail" name="email" placeholder="Enter your email" required>
       </div>
 
       <div>
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <label for="loginPassword">Password</label>
+        <input type="password" id="loginPassword" name="password" placeholder="Enter your password" required>
       </div>
 
-      <button type="submit">Login</button>
+      <button type="button" id="loginBtn">Login</button>
     </form>
 
     <div class="extra-links">
@@ -92,6 +93,6 @@
 
   </div>
 </footer>
-
+<script src="assets/main.js"></script>
 </body>
 </html>
