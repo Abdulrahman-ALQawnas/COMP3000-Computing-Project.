@@ -175,20 +175,27 @@ URGENT: Your bank account has been suspended. Click here immediately to verify y
  ```
  update_security.exe
 ```
- ---
+ ...
+ 
  ## 🔒 Security Considerations 
  AiSafeNet was designed with several security practices: - No use of `eval()` or unsafe JavaScript execution - Event-driven JavaScript using `addEventListener` - DOM updates using `textContent` instead of `innerHTML` - Password hashing using bcrypt - Compatible with strict Content Security Policy (CSP) 
- ---
+ 
+ ...
+ 
  ## 🚀 Future Improvements 
- -  Machine learning phishing detection
- -  Integration with VirusTotal API
- -   Scan history for users
- -    Dashboard analytics
- -     JWT authentication
- -  Real-time threat intelligence feeds
- ---
-    ## 👩‍💻 Author Developed as a cybersecurity and web application project.
-    --- 
+ 1.  Machine learning phishing detection
+ 2.  Integration with VirusTotal API
+ 3.  Scan history for users
+ 4.  Dashboard analytics
+ 5.  JWT authentication
+ 6.  Real-time threat intelligence feeds
+
+:::
+ ...
+ 
+    ## 👩‍💻 This project developed as a cybersecurity and web application project.
+    
+... 
     ## 📄 License This project is for educational and research purposes.
     :::
     --- 
