@@ -190,14 +190,13 @@ URGENT: Your bank account has been suspended. Click here immediately to verify y
  5.  JWT authentication
  6.  Real-time threat intelligence feeds
 
-:::
- ...
+ -
  
     ## 👩‍💻 This project developed as a cybersecurity and web application project.
     
-... 
+- 
     ## 📄 License This project is for educational and research purposes.
-    :::
+    
     --- 
     If you want, I can also help you create:
     - ⭐ **a better GitHub repo structure** 
