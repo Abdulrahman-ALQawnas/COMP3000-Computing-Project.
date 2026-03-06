@@ -192,10 +192,10 @@ URGENT: Your bank account has been suspended. Click here immediately to verify y
 
  ---
  
-    ## 👩‍💻 This project developed as a cybersecurity and web application project.
+    👩‍💻 This project developed as a cybersecurity and web application project.
     
  ---
-    ## 📄 License This project is for educational and research purposes.
+    📄 License This project is for educational and research purposes.
     
     --- 
     If you want, I can also help you create:
