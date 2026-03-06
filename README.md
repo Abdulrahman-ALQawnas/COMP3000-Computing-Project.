@@ -104,10 +104,15 @@ Response with Risk Score
 AiSafeNet │ ├── backend │ ├── app.py │ ├── scanner.py │ └── database.db │ ├── frontend │ ├── login.html │ ├── register.html │ ├── dashboard.html │ ├── url-scan.html │ ├── file-scan.html │ ├── email-scan.html │ └── script.js │ └── README.md
 
 ```
---- ## ⚙ Installation
+---
+## ⚙ Installation
 ### 1️⃣ Clone the repository 
 ```
 git clone https://github.com/Abdulrahman-ALQawnas/COMP3000-Computing-Project.git
+
+```
+
+```
 cd AiSafeNet
 ```
  ---
